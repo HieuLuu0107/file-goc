@@ -6,8 +6,7 @@
     }
   },
   "deploy": {
-    "startCommand": "php -S 0.0.0.0:8080 router.php",
-
+   php -S 0.0.0.0:8080 public/index.php,
     "restartPolicyType": "ON_FAILURE"
   }
 }
