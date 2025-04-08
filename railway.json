@@ -6,7 +6,7 @@
     }
   },
   "deploy": {
-   php -S 0.0.0.0:8080 public/index.php,
+   "startCommand": "php artisan serve --host=0.0.0.0 --port=8080"
     "restartPolicyType": "ON_FAILURE"
   }
 }
