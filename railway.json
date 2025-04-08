@@ -1,4 +1,5 @@
 {
+  "$schema": "https://railway.app/railway.schema.json",
   "build": {
     "env": {
       "APP_ENV": "production",
@@ -6,7 +7,7 @@
     }
   },
   "deploy": {
-   "startCommand": "php artisan serve --host=0.0.0.0 --port=8080"
+    "startCommand": "php artisan serve --host=0.0.0.0 --port=8080",
     "restartPolicyType": "ON_FAILURE"
   }
 }
